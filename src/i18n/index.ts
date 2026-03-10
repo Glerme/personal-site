@@ -17,7 +17,6 @@ i18n
     supportedLngs: ['pt-BR', 'en'],
     detection: {
       order: ['navigator'],
-      lookupNavigator: 'language',
       convertDetectedLanguage: (lng: string) => {
         if (lng.startsWith('pt')) return 'pt-BR'
         return 'en'
