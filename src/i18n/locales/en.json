@@ -1,0 +1,184 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "home": "Go to home"
+  },
+  "hero": {
+    "available": "Available for projects",
+    "greeting": "Hi, I'm",
+    "viewProjects": "View Projects",
+    "downloadCV": "Download CV",
+    "scrollDown": "Scroll down",
+    "intro": "Introduction"
+  },
+  "about": {
+    "eyebrow": "about",
+    "title": "Who I am",
+    "description": "A bit about my journey as a developer.",
+    "quickFacts": "Quick facts",
+    "sectionLabel": "About me"
+  },
+  "skills": {
+    "eyebrow": "skills",
+    "title": "Tech Stack",
+    "description": "Technologies and tools I use daily to build digital products.",
+    "sectionLabel": "Skills"
+  },
+  "projects": {
+    "eyebrow": "projects",
+    "title": "What I've built",
+    "description": "A selection of projects that demonstrate my fullstack skills.",
+    "filters": {
+      "all": "All",
+      "fullstack": "Fullstack",
+      "frontend": "Frontend",
+      "backend": "Backend"
+    },
+    "code": "Code",
+    "demo": "Demo",
+    "featured": "Featured project",
+    "empty": "// no projects in this category",
+    "sectionLabel": "Projects"
+  },
+  "experience": {
+    "eyebrow": "experience",
+    "title": "Professional journey",
+    "description": "Companies I've worked at and the impact I've made throughout my career.",
+    "sectionLabel": "Professional experience"
+  },
+  "contact": {
+    "eyebrow": "contact",
+    "title": "Let's talk",
+    "description": "Have a project in mind or want to exchange ideas? Send me a message.",
+    "locationLabel": "Location",
+    "social": "Social media",
+    "responseTime": "// response time",
+    "urgent": "urgent",
+    "responseUrgent": "< 24h",
+    "responseElse": "1-2 business days",
+    "sectionLabel": "Contact",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "your@email.com",
+      "subjectPlaceholder": "What do you want to talk about?",
+      "messagePlaceholder": "Describe your project, idea or question...",
+      "submit": "Send message",
+      "submitting": "Sending...",
+      "error": "Failed to send message. Please try again or contact me directly by email.",
+      "required": "*",
+      "validation": {
+        "nameMin": "Name must be at least 2 characters",
+        "nameLong": "Name is too long",
+        "emailInvalid": "Invalid email",
+        "subjectMin": "Subject must be at least 3 characters",
+        "subjectLong": "Subject is too long",
+        "messageMin": "Message must be at least 10 characters",
+        "messageLong": "Message is too long"
+      }
+    },
+    "success": {
+      "title": "Message sent!",
+      "message": "Thank you for reaching out. I'll get back to you soon!"
+    }
+  },
+  "footer": {
+    "builtWith": "Built with"
+  },
+  "data": {
+    "personalInfo": {
+      "title": "Fullstack Developer",
+      "tagline": "Building elegant interfaces and robust APIs with clean code and performance in mind.",
+      "bio": [
+        "Fullstack developer with a passion for creating high-impact digital experiences. Specialized in React, Node.js and TypeScript, focused on scalable architecture and clean code.",
+        "When I'm not coding, I'm exploring new technologies, contributing to open source or reading about distributed systems design."
+      ],
+      "location": "Brazil",
+      "typewriterTitles": [
+        "Fullstack Developer",
+        "React Engineer",
+        "Node.js Developer",
+        "TypeScript Enthusiast",
+        "UI/UX Craftsman"
+      ],
+      "facts": [
+        { "label": "Years of experience", "value": "5+" },
+        { "label": "Projects delivered", "value": "5+" },
+        { "label": "Coffee per day", "value": "∞" },
+        { "label": "Commits in 2026", "value": "100+" }
+      ]
+    },
+    "skillCategories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "devops": "DevOps & Cloud",
+      "tools": "Tools"
+    },
+    "projects": {
+      "saas-dashboard": {
+        "title": "SaaS Analytics Dashboard",
+        "description": "Analytics platform with real-time visualizations, authentication and multitenancy.",
+        "longDescription": "Full-featured dashboard with interactive charts using Recharts, JWT authentication, team management and PDF report exports."
+      },
+      "ecommerce-api": {
+        "title": "E-commerce API",
+        "description": "Complete RESTful API for e-commerce with payments, inventory and notifications."
+      },
+      "design-system": {
+        "title": "Design System",
+        "description": "React component library with Storybook, tests and automatic documentation."
+      },
+      "task-manager": {
+        "title": "Task Manager App",
+        "description": "Task management app with drag & drop, filters and real-time collaboration."
+      },
+      "cli-tool": {
+        "title": "Dev CLI Tool",
+        "description": "CLI tool for automating development workflows with project scaffolding."
+      },
+      "portfolio": {
+        "title": "This Portfolio",
+        "description": "Personal portfolio built with React, TypeScript and TailwindCSS with a Dark Minimal theme."
+      }
+    },
+    "experiences": {
+      "exp-1": {
+        "role": "Senior Fullstack Developer",
+        "period": "Jan 2023 — Present",
+        "description": "Technical lead for a team of 4 developers, responsible for the architecture and delivery of a B2B SaaS with 500+ active companies.",
+        "highlights": [
+          "Reduced load time by 60% with code splitting and lazy loading",
+          "Migrated the monolith to a microservices architecture",
+          "Implemented full CI/CD pipeline with GitHub Actions + Docker"
+        ]
+      },
+      "exp-2": {
+        "role": "Frontend Developer",
+        "period": "Mar 2021 — Dec 2022",
+        "description": "Development of the startup's core product — an online education platform focused on UX and performance.",
+        "highlights": [
+          "Built the design system from scratch with React + Storybook",
+          "Improved accessibility score from 60 to 95 (WCAG AA)",
+          "Implemented internationalization for PT, EN and ES"
+        ]
+      },
+      "exp-3": {
+        "role": "Junior Developer",
+        "period": "Jun 2020 — Feb 2021",
+        "description": "Development of landing pages and small web systems for various clients.",
+        "highlights": [
+          "Delivered more than 15 landing page projects",
+          "Learned React and Node.js in production",
+          "Direct collaboration with designers and clients"
+        ]
+      }
+    }
+  }
+}

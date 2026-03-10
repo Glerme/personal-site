@@ -1,0 +1,184 @@
+{
+  "nav": {
+    "about": "Sobre",
+    "skills": "Skills",
+    "projects": "Projetos",
+    "experience": "Experiência",
+    "contact": "Contato",
+    "home": "Ir para o início"
+  },
+  "hero": {
+    "available": "Disponível para projetos",
+    "greeting": "Olá, sou",
+    "viewProjects": "Ver Projetos",
+    "downloadCV": "Download CV",
+    "scrollDown": "Rolar para baixo",
+    "intro": "Introdução"
+  },
+  "about": {
+    "eyebrow": "sobre",
+    "title": "Quem sou eu",
+    "description": "Um pouco sobre minha jornada como desenvolvedor.",
+    "quickFacts": "Fatos rápidos",
+    "sectionLabel": "Sobre mim"
+  },
+  "skills": {
+    "eyebrow": "habilidades",
+    "title": "Tech Stack",
+    "description": "Tecnologias e ferramentas que uso no dia a dia para construir produtos digitais.",
+    "sectionLabel": "Habilidades"
+  },
+  "projects": {
+    "eyebrow": "projetos",
+    "title": "O que construí",
+    "description": "Uma seleção de projetos que demonstram minhas habilidades fullstack.",
+    "filters": {
+      "all": "Todos",
+      "fullstack": "Fullstack",
+      "frontend": "Frontend",
+      "backend": "Backend"
+    },
+    "code": "Código",
+    "demo": "Demo",
+    "featured": "Projeto destacado",
+    "empty": "// nenhum projeto nesta categoria",
+    "sectionLabel": "Projetos"
+  },
+  "experience": {
+    "eyebrow": "experiência",
+    "title": "Jornada profissional",
+    "description": "Empresas onde trabalhei e impactos que gerei ao longo da minha carreira.",
+    "sectionLabel": "Experiência profissional"
+  },
+  "contact": {
+    "eyebrow": "contato",
+    "title": "Vamos conversar",
+    "description": "Tem um projeto em mente ou quer trocar uma ideia? Me manda uma mensagem.",
+    "locationLabel": "Localização",
+    "social": "Redes sociais",
+    "responseTime": "// tempo de resposta",
+    "urgent": "urgente",
+    "responseUrgent": "< 24h",
+    "responseElse": "1-2 dias úteis",
+    "sectionLabel": "Contato",
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "subject": "Assunto",
+      "message": "Mensagem",
+      "namePlaceholder": "Seu nome",
+      "emailPlaceholder": "seu@email.com",
+      "subjectPlaceholder": "Sobre o que você quer falar?",
+      "messagePlaceholder": "Descreva seu projeto, ideia ou dúvida...",
+      "submit": "Enviar mensagem",
+      "submitting": "Enviando...",
+      "error": "Falha ao enviar a mensagem. Tente novamente ou entre em contato diretamente pelo email.",
+      "required": "*",
+      "validation": {
+        "nameMin": "Nome deve ter pelo menos 2 caracteres",
+        "nameLong": "Nome muito longo",
+        "emailInvalid": "Email inválido",
+        "subjectMin": "Assunto deve ter pelo menos 3 caracteres",
+        "subjectLong": "Assunto muito longo",
+        "messageMin": "Mensagem deve ter pelo menos 10 caracteres",
+        "messageLong": "Mensagem muito longa"
+      }
+    },
+    "success": {
+      "title": "Mensagem enviada!",
+      "message": "Obrigado pelo contato. Responderei em breve!"
+    }
+  },
+  "footer": {
+    "builtWith": "Construído com"
+  },
+  "data": {
+    "personalInfo": {
+      "title": "Fullstack Developer",
+      "tagline": "Construindo interfaces elegantes e APIs robustas com código limpo e performance em mente.",
+      "bio": [
+        "Desenvolvedor fullstack com paixão por criar experiências digitais de alto impacto. Especializado em React, Node.js e TypeScript, com foco em arquitetura escalável e código limpo.",
+        "Quando não estou codando, estou explorando novas tecnologias, contribuindo para open source ou lendo sobre design de sistemas distribuídos."
+      ],
+      "location": "Brasil",
+      "typewriterTitles": [
+        "Fullstack Developer",
+        "React Engineer",
+        "Node.js Developer",
+        "TypeScript Enthusiast",
+        "UI/UX Craftsman"
+      ],
+      "facts": [
+        { "label": "Anos de experiência", "value": "5+" },
+        { "label": "Projetos entregues", "value": "5+" },
+        { "label": "Café por dia", "value": "∞" },
+        { "label": "Commits em 2026", "value": "100+" }
+      ]
+    },
+    "skillCategories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "devops": "DevOps & Cloud",
+      "tools": "Ferramentas"
+    },
+    "projects": {
+      "saas-dashboard": {
+        "title": "SaaS Analytics Dashboard",
+        "description": "Plataforma de analytics com visualizações em tempo real, autenticação e multitenancy.",
+        "longDescription": "Dashboard completo com gráficos interativos usando Recharts, autenticação JWT, gerenciamento de equipes e exportação de relatórios em PDF."
+      },
+      "ecommerce-api": {
+        "title": "E-commerce API",
+        "description": "API RESTful completa para e-commerce com pagamentos, estoque e notificações."
+      },
+      "design-system": {
+        "title": "Design System",
+        "description": "Sistema de componentes React com Storybook, testes e documentação automática."
+      },
+      "task-manager": {
+        "title": "Task Manager App",
+        "description": "Aplicativo de gerenciamento de tarefas com drag & drop, filtros e colaboração em tempo real."
+      },
+      "cli-tool": {
+        "title": "Dev CLI Tool",
+        "description": "Ferramenta CLI para automação de workflows de desenvolvimento com scaffolding de projetos."
+      },
+      "portfolio": {
+        "title": "Este Portfolio",
+        "description": "Portfolio pessoal construído com React, TypeScript e TailwindCSS com tema Dark Minimal."
+      }
+    },
+    "experiences": {
+      "exp-1": {
+        "role": "Desenvolvedor Fullstack Sênior",
+        "period": "Jan 2023 — Presente",
+        "description": "Liderança técnica de uma equipe de 4 desenvolvedores, responsável pela arquitetura e entrega de um SaaS B2B com +500 empresas ativas.",
+        "highlights": [
+          "Reduzi o tempo de carregamento em 60% com code splitting e lazy loading",
+          "Migrei o monolito para arquitetura de microserviços",
+          "Implementei CI/CD completo com GitHub Actions + Docker"
+        ]
+      },
+      "exp-2": {
+        "role": "Desenvolvedor Frontend",
+        "period": "Mar 2021 — Dez 2022",
+        "description": "Desenvolvimento do produto principal da startup — uma plataforma de educação online com foco em UX e performance.",
+        "highlights": [
+          "Construí o design system do zero com React + Storybook",
+          "Aumentei o score de acessibilidade de 60 para 95 (WCAG AA)",
+          "Implementei internacionalização para PT, EN e ES"
+        ]
+      },
+      "exp-3": {
+        "role": "Desenvolvedor Júnior",
+        "period": "Jun 2020 — Fev 2021",
+        "description": "Desenvolvimento de landing pages e pequenos sistemas web para clientes variados.",
+        "highlights": [
+          "Entregue mais de 15 projetos de landing pages",
+          "Aprendizado de React e Node.js em produção",
+          "Colaboração direta com designers e clientes"
+        ]
+      }
+    }
+  }
+}
