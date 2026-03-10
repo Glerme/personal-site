@@ -95,24 +95,24 @@
   "data": {
     "personalInfo": {
       "title": "Fullstack Developer",
-      "tagline": "Building elegant interfaces and robust APIs with clean code and performance in mind.",
+      "tagline": "Turning Figma designs into pixel-perfect interfaces and building robust backends — 5 years crafting web and mobile experiences.",
       "bio": [
-        "Fullstack developer with a passion for creating high-impact digital experiences. Specialized in React, Node.js and TypeScript, focused on scalable architecture and clean code.",
-        "When I'm not coding, I'm exploring new technologies, contributing to open source or reading about distributed systems design."
+        "Fullstack Developer with 5 years of experience specializing in modern web and mobile application development. Proficient in the JavaScript ecosystem — React, Next.js, Node.js, TypeScript — and experienced with Python for backend services. Passionate about translating designs into high-quality, pixel-perfect and accessible UIs.",
+        "Strong collaborator in Agile/Kanban environments, focused on consistent delivery, performance optimization and long-term code stability. Currently open to remote opportunities."
       ],
-      "location": "Brazil",
+      "location": "Pederneiras, SP — Brazil (Open to remote)",
       "typewriterTitles": [
         "Fullstack Developer",
-        "React Engineer",
+        "React & Next.js Engineer",
         "Node.js Developer",
-        "TypeScript Enthusiast",
-        "UI/UX Craftsman"
+        "React Native Developer",
+        "TypeScript Enthusiast"
       ],
       "facts": [
         { "label": "Years of experience", "value": "5+" },
-        { "label": "Projects delivered", "value": "5+" },
-        { "label": "Coffee per day", "value": "∞" },
-        { "label": "Commits in 2026", "value": "100+" }
+        { "label": "Companies worked at", "value": "3" },
+        { "label": "CS Degree", "value": "UNIP" },
+        { "label": "Languages", "value": "PT & EN" }
       ]
     },
     "skillCategories": {
@@ -150,33 +150,33 @@
     },
     "experiences": {
       "exp-1": {
-        "role": "Senior Fullstack Developer",
-        "period": "Jan 2023 — Present",
-        "description": "Technical lead for a team of 4 developers, responsible for the architecture and delivery of a B2B SaaS with 500+ active companies.",
+        "role": "Fullstack Developer",
+        "period": "Feb 2024 — Present",
+        "description": "Engineered and shipped high-impact features for a specialized web application, working closely with UI/UX teams and driving consistent product delivery in an Agile environment.",
         "highlights": [
-          "Reduced load time by 60% with code splitting and lazy loading",
-          "Migrated the monolith to a microservices architecture",
-          "Implemented full CI/CD pipeline with GitHub Actions + Docker"
+          "Built SEO-optimized front-end with Next.js and robust backend services with Python",
+          "Translated Figma designs into pixel-perfect, responsive and accessible UIs",
+          "Actively contributed to Kanban workflows and sprint planning"
         ]
       },
       "exp-2": {
-        "role": "Frontend Developer",
-        "period": "Mar 2021 — Dec 2022",
-        "description": "Development of the startup's core product — an online education platform focused on UX and performance.",
+        "role": "Mid-level Front-End Developer",
+        "period": "Jul 2022 — Feb 2024",
+        "description": "Maintained and scaled a sales management platform, implementing performance optimizations and integrating new features to enhance sales efficiency.",
         "highlights": [
-          "Built the design system from scratch with React + Storybook",
-          "Improved accessibility score from 60 to 95 (WCAG AA)",
-          "Implemented internationalization for PT, EN and ES"
+          "Reduced load times by 40% through performance optimizations",
+          "Integrated AI and Geolocation features to enhance sales route efficiency",
+          "Resolved critical production bottlenecks improving system stability and response times"
         ]
       },
       "exp-3": {
-        "role": "Junior Developer",
-        "period": "Jun 2020 — Feb 2021",
-        "description": "Development of landing pages and small web systems for various clients.",
+        "role": "Junior Front-End Developer",
+        "period": "Mar 2021 — Jul 2022",
+        "description": "Developed and maintained features for a sales-oriented web application, leading legacy code refactoring efforts to improve scalability and reduce bugs.",
         "highlights": [
-          "Delivered more than 15 landing page projects",
-          "Learned React and Node.js in production",
-          "Direct collaboration with designers and clients"
+          "Refactored legacy code increasing system efficiency by 30% and reducing critical bugs by 40%",
+          "Developed new features significantly enhancing user experience and system performance",
+          "Updated and standardized libraries across the platform ensuring long-term stability"
         ]
       }
     }

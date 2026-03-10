@@ -94,25 +94,25 @@
   },
   "data": {
     "personalInfo": {
-      "title": "Fullstack Developer",
-      "tagline": "Construindo interfaces elegantes e APIs robustas com código limpo e performance em mente.",
+      "title": "Desenvolvedor Fullstack",
+      "tagline": "Transformando designs do Figma em interfaces pixel-perfect e construindo backends robustos — 5 anos criando experiências web e mobile.",
       "bio": [
-        "Desenvolvedor fullstack com paixão por criar experiências digitais de alto impacto. Especializado em React, Node.js e TypeScript, com foco em arquitetura escalável e código limpo.",
-        "Quando não estou codando, estou explorando novas tecnologias, contribuindo para open source ou lendo sobre design de sistemas distribuídos."
+        "Desenvolvedor Fullstack com 5 anos de experiência especializado em desenvolvimento web e mobile moderno. Proficiente no ecossistema JavaScript — React, Next.js, Node.js, TypeScript — e com experiência em Python para serviços backend. Apaixonado por traduzir designs em interfaces de alta qualidade, acessíveis e pixel-perfect.",
+        "Forte colaborador em ambientes Agile/Kanban, com foco em entrega consistente, otimização de performance e estabilidade do código a longo prazo. Atualmente aberto a oportunidades remotas."
       ],
-      "location": "Brasil",
+      "location": "Pederneiras, SP — Brasil (Remoto)",
       "typewriterTitles": [
-        "Fullstack Developer",
-        "React Engineer",
-        "Node.js Developer",
-        "TypeScript Enthusiast",
-        "UI/UX Craftsman"
+        "Desenvolvedor Fullstack",
+        "Engenheiro React & Next.js",
+        "Desenvolvedor Node.js",
+        "Desenvolvedor React Native",
+        "Entusiasta de TypeScript"
       ],
       "facts": [
         { "label": "Anos de experiência", "value": "5+" },
-        { "label": "Projetos entregues", "value": "5+" },
-        { "label": "Café por dia", "value": "∞" },
-        { "label": "Commits em 2026", "value": "100+" }
+        { "label": "Empresas trabalhadas", "value": "3" },
+        { "label": "Formação em CS", "value": "UNIP" },
+        { "label": "Idiomas", "value": "PT & EN" }
       ]
     },
     "skillCategories": {
@@ -150,33 +150,33 @@
     },
     "experiences": {
       "exp-1": {
-        "role": "Desenvolvedor Fullstack Sênior",
-        "period": "Jan 2023 — Presente",
-        "description": "Liderança técnica de uma equipe de 4 desenvolvedores, responsável pela arquitetura e entrega de um SaaS B2B com +500 empresas ativas.",
+        "role": "Desenvolvedor Fullstack",
+        "period": "Fev 2024 — Presente",
+        "description": "Desenvolvimento e entrega de funcionalidades de alto impacto em uma aplicação web especializada, colaborando com equipes de UI/UX e contribuindo para entregas consistentes em ambiente Ágil.",
         "highlights": [
-          "Reduzi o tempo de carregamento em 60% com code splitting e lazy loading",
-          "Migrei o monolito para arquitetura de microserviços",
-          "Implementei CI/CD completo com GitHub Actions + Docker"
+          "Construí front-end otimizado para SEO com Next.js e serviços backend robustos com Python",
+          "Traduzi designs do Figma em interfaces responsivas, acessíveis e pixel-perfect",
+          "Participei ativamente de workflows Kanban e planejamento de sprints"
         ]
       },
       "exp-2": {
-        "role": "Desenvolvedor Frontend",
-        "period": "Mar 2021 — Dez 2022",
-        "description": "Desenvolvimento do produto principal da startup — uma plataforma de educação online com foco em UX e performance.",
+        "role": "Desenvolvedor Front-End Pleno",
+        "period": "Jul 2022 — Fev 2024",
+        "description": "Manutenção e escalabilidade de uma plataforma de gestão de vendas, com otimizações de performance e integração de novas funcionalidades para melhorar a eficiência comercial.",
         "highlights": [
-          "Construí o design system do zero com React + Storybook",
-          "Aumentei o score de acessibilidade de 60 para 95 (WCAG AA)",
-          "Implementei internacionalização para PT, EN e ES"
+          "Reduzi o tempo de carregamento em 40% com otimizações de performance",
+          "Integrei funcionalidades de IA e Geolocalização para otimizar rotas de vendas",
+          "Resolvi gargalos críticos em produção melhorando estabilidade e tempo de resposta do sistema"
         ]
       },
       "exp-3": {
-        "role": "Desenvolvedor Júnior",
-        "period": "Jun 2020 — Fev 2021",
-        "description": "Desenvolvimento de landing pages e pequenos sistemas web para clientes variados.",
+        "role": "Desenvolvedor Front-End Júnior",
+        "period": "Mar 2021 — Jul 2022",
+        "description": "Desenvolvimento e manutenção de funcionalidades em uma aplicação web voltada a vendas, liderando a refatoração de código legado para melhorar escalabilidade e reduzir bugs.",
         "highlights": [
-          "Entregue mais de 15 projetos de landing pages",
-          "Aprendizado de React e Node.js em produção",
-          "Colaboração direta com designers e clientes"
+          "Refatorei código legado aumentando eficiência do sistema em 30% e reduzindo bugs críticos em 40%",
+          "Desenvolvi novas funcionalidades melhorando significativamente a experiência do usuário",
+          "Atualizei e padronizei bibliotecas em toda a plataforma garantindo estabilidade a longo prazo"
         ]
       }
     }

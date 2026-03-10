@@ -97,7 +97,7 @@ export function AboutSection() {
               <p className="pl-4"><span className="text-muted-light">role</span><span className="text-muted">:</span> <span className="text-green-400">"{t('data.personalInfo.title')}"</span><span className="text-muted">,</span></p>
               <p className="pl-4"><span className="text-muted-light">location</span><span className="text-muted">:</span> <span className="text-green-400">"{t('data.personalInfo.location')}"</span><span className="text-muted">,</span></p>
               <p className="pl-4"><span className="text-muted-light">available</span><span className="text-muted">:</span> <span className="text-yellow-400">true</span><span className="text-muted">,</span></p>
-              <p className="pl-4"><span className="text-muted-light">coffee</span><span className="text-muted">:</span> <span className="text-yellow-400">"always"</span></p>
+              <p className="pl-4"><span className="text-muted-light">languages</span><span className="text-muted">:</span> <span className="text-green-400">["pt-BR", "en-US"]</span></p>
               <p><span className="text-muted">{'}'}</span></p>
             </div>
           </div>
