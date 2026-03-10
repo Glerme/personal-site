@@ -36,7 +36,8 @@
       "all": "All",
       "fullstack": "Fullstack",
       "frontend": "Frontend",
-      "backend": "Backend"
+      "backend": "Backend",
+      "mobile": "Mobile"
     },
     "code": "Code",
     "demo": "Demo",
@@ -122,26 +123,32 @@
       "tools": "Tools"
     },
     "projects": {
-      "saas-dashboard": {
-        "title": "SaaS Analytics Dashboard",
-        "description": "Analytics platform with real-time visualizations, authentication and multitenancy.",
-        "longDescription": "Full-featured dashboard with interactive charts using Recharts, JWT authentication, team management and PDF report exports."
+      "vagas-pederneiras": {
+        "title": "Vagas Pederneiras",
+        "description": "Job board platform connecting talent to companies in Pederneiras and the region.",
+        "longDescription": "Full-stack job board with vacancy listings, search, company profiles, and candidate management — built for the local job market in Pederneiras, SP."
       },
-      "ecommerce-api": {
-        "title": "E-commerce API",
-        "description": "Complete RESTful API for e-commerce with payments, inventory and notifications."
+      "leaderboard-pokemon-tcg": {
+        "title": "Pokémon TCG Leaderboard",
+        "description": "Full-stack championship management platform for Pokémon TCG with rankings, match tracking, and admin panel.",
+        "longDescription": "Full-stack app with public rankings, championship management, player registration, and V/W/L match scoring. Frontend with React + Vite + TailwindCSS + Zustand, backend with Express + Prisma + PostgreSQL + JWT."
       },
-      "design-system": {
-        "title": "Design System",
-        "description": "React component library with Storybook, tests and automatic documentation."
+      "eletrobus": {
+        "title": "EletroBus",
+        "description": "Real-time urban bus tracking app built as a college thesis — GPS tracking, Google Maps, and social login.",
+        "longDescription": "TCC project focused on improving urban mobility with real-time bus tracking, route and stop data, social login via Google, and a driver interface. Built with React Native, Expo, and MongoDB."
       },
-      "task-manager": {
-        "title": "Task Manager App",
-        "description": "Task management app with drag & drop, filters and real-time collaboration."
+      "pokedex-react": {
+        "title": "Pokédex App",
+        "description": "Complete Pokédex built with Next.js consuming the PokéAPI, featuring all Pokémon including alternative forms."
       },
-      "cli-tool": {
-        "title": "Dev CLI Tool",
-        "description": "CLI tool for automating development workflows with project scaffolding."
+      "nearby": {
+        "title": "Nearby",
+        "description": "Location-based mobile app to discover nearby clubs and establishments, built during NLW Rocketseat."
+      },
+      "nlw-agents": {
+        "title": "NLW Agents",
+        "description": "AI agents application built during NLW Rocketseat, using Node.js and modern AI tooling."
       },
       "portfolio": {
         "title": "This Portfolio",

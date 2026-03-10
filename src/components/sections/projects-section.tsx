@@ -9,7 +9,7 @@ import { projects } from '@/data/portfolio-data'
 import type { ProjectCategory } from '@/types/portfolio.types'
 import { cn } from '@/utils/cn'
 
-const FILTER_VALUES: (ProjectCategory | 'all')[] = ['all', 'fullstack', 'frontend', 'backend']
+const FILTER_VALUES: (ProjectCategory | 'all')[] = ['all', 'fullstack', 'frontend', 'backend', 'mobile']
 
 export function ProjectsSection() {
   const { t } = useTranslation()

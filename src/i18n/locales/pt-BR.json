@@ -36,7 +36,8 @@
       "all": "Todos",
       "fullstack": "Fullstack",
       "frontend": "Frontend",
-      "backend": "Backend"
+      "backend": "Backend",
+      "mobile": "Mobile"
     },
     "code": "Código",
     "demo": "Demo",
@@ -122,26 +123,32 @@
       "tools": "Ferramentas"
     },
     "projects": {
-      "saas-dashboard": {
-        "title": "SaaS Analytics Dashboard",
-        "description": "Plataforma de analytics com visualizações em tempo real, autenticação e multitenancy.",
-        "longDescription": "Dashboard completo com gráficos interativos usando Recharts, autenticação JWT, gerenciamento de equipes e exportação de relatórios em PDF."
+      "vagas-pederneiras": {
+        "title": "Vagas Pederneiras",
+        "description": "Plataforma de vagas de emprego conectando talentos a empresas de Pederneiras e região.",
+        "longDescription": "Job board fullstack com listagem de vagas, busca, perfis de empresas e gerenciamento de candidatos — criado para o mercado de trabalho local de Pederneiras, SP."
       },
-      "ecommerce-api": {
-        "title": "E-commerce API",
-        "description": "API RESTful completa para e-commerce com pagamentos, estoque e notificações."
+      "leaderboard-pokemon-tcg": {
+        "title": "Leaderboard Pokémon TCG",
+        "description": "Plataforma fullstack de gerenciamento de campeonatos de Pokémon TCG com rankings, registro de partidas e painel admin.",
+        "longDescription": "App fullstack com rankings públicos, gerenciamento de campeonatos, cadastro de jogadores e pontuação por V/E/D. Frontend com React + Vite + TailwindCSS + Zustand, backend com Express + Prisma + PostgreSQL + JWT."
       },
-      "design-system": {
-        "title": "Design System",
-        "description": "Sistema de componentes React com Storybook, testes e documentação automática."
+      "eletrobus": {
+        "title": "EletroBus",
+        "description": "App de rastreamento de ônibus urbano em tempo real desenvolvido como TCC — GPS tracking, Google Maps e login social.",
+        "longDescription": "Projeto de TCC focado em melhorar a mobilidade urbana com rastreamento em tempo real, dados de rotas e pontos, login social via Google e interface para motoristas. Construído com React Native, Expo e MongoDB."
       },
-      "task-manager": {
-        "title": "Task Manager App",
-        "description": "Aplicativo de gerenciamento de tarefas com drag & drop, filtros e colaboração em tempo real."
+      "pokedex-react": {
+        "title": "App Pokédex",
+        "description": "Pokédex completa construída com Next.js consumindo a PokéAPI, com todos os Pokémons incluindo formas alternativas."
       },
-      "cli-tool": {
-        "title": "Dev CLI Tool",
-        "description": "Ferramenta CLI para automação de workflows de desenvolvimento com scaffolding de projetos."
+      "nearby": {
+        "title": "Nearby",
+        "description": "App mobile de geolocalização para descobrir clubes e estabelecimentos próximos, desenvolvido durante o NLW Rocketseat."
+      },
+      "nlw-agents": {
+        "title": "NLW Agents",
+        "description": "Aplicação de agentes de IA construída durante o NLW Rocketseat, usando Node.js e ferramentas modernas de IA."
       },
       "portfolio": {
         "title": "Este Portfolio",
