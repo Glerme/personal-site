@@ -9,7 +9,7 @@ export const personalInfo: PersonalInfo = {
   name: "Guilherme Felipe",
   email: "guiggff@gmail.com",
   cvUrl:
-    "https://drive.google.com/file/d/1G9Dz9rOzSUAsO85R6Zz-RWWKTjr-o15x/view?usp=sharing",
+    "https://drive.google.com/file/d/1Qc--7t2e-XkvAzQ0BUJaigyY5YW_kn4L/view?usp=sharing",
   avatarUrl: undefined,
   socialLinks: [
     { label: "GitHub", url: "https://github.com/glerme", icon: "github" },
@@ -25,7 +25,14 @@ export const personalInfo: PersonalInfo = {
 export const projects: Project[] = [
   {
     id: "vagas-pederneiras",
-    tags: ["React", "TypeScript", "Node.js", "PostgreSQL", "Prisma", "TailwindCSS"],
+    tags: [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "PostgreSQL",
+      "Prisma",
+      "TailwindCSS",
+    ],
     category: "fullstack",
     liveUrl: "https://www.vagaspederneiras.com.br",
     featured: true,
@@ -159,29 +166,10 @@ export const skillCategories: SkillCategory[] = [
 export const experiences: Experience[] = [
   {
     id: "exp-1",
-    company: "46Graus",
-    startDate: "2024-02",
-    current: true,
-    technologies: [
-      "React",
-      "Next.js",
-      "TypeScript",
-      "Python",
-      "FastAPI",
-      "Figma",
-      "React Query",
-      "Framer Motion",
-      "TailwindCSS",
-      "Git",
-      "Docker",
-    ],
-  },
-  {
-    id: "exp-2",
     company: "N3urons Brasil",
+    employmentType: "full-time",
     startDate: "2022-07",
-    endDate: "2024-02",
-    current: false,
+    current: true,
     technologies: [
       "React",
       "TypeScript",
@@ -201,8 +189,30 @@ export const experiences: Experience[] = [
     ],
   },
   {
+    id: "exp-2",
+    company: "46Graus",
+    employmentType: "freelance",
+    startDate: "2024-02",
+    endDate: "2025-01",
+    current: false,
+    technologies: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Python",
+      "FastAPI",
+      "Figma",
+      "React Query",
+      "Framer Motion",
+      "TailwindCSS",
+      "Git",
+      "Docker",
+    ],
+  },
+  {
     id: "exp-3",
     company: "AllCom Sistemas",
+    employmentType: "full-time",
     startDate: "2021-03",
     endDate: "2022-07",
     current: false,

@@ -26,10 +26,13 @@ export interface Skill {
   icon?: string;
 }
 
+export type EmploymentType = "full-time" | "freelance" | "part-time" | "internship";
+
 export interface Experience {
   id: string;
   company: string;
   companyUrl?: string;
+  employmentType?: EmploymentType;
   startDate: string;
   endDate?: string;
   current: boolean;

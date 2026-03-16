@@ -157,23 +157,23 @@
     },
     "experiences": {
       "exp-1": {
-        "role": "Fullstack Developer",
-        "period": "Feb 2024 — Present",
-        "description": "Engineered and shipped high-impact features for a specialized web application, working closely with UI/UX teams and driving consistent product delivery in an Agile environment.",
-        "highlights": [
-          "Built SEO-optimized front-end with Next.js and robust backend services with Python",
-          "Translated Figma designs into pixel-perfect, responsive and accessible UIs",
-          "Actively contributed to Kanban workflows and sprint planning"
-        ]
-      },
-      "exp-2": {
-        "role": "Mid-level Front-End Developer",
-        "period": "Jul 2022 — Feb 2024",
+        "role": "Mid-level Front-End Developer II",
+        "period": "Jul 2022 — Present",
         "description": "Maintained and scaled a sales management platform, implementing performance optimizations and integrating new features to enhance sales efficiency.",
         "highlights": [
           "Reduced load times by 40% through performance optimizations",
           "Integrated AI and Geolocation features to enhance sales route efficiency",
           "Resolved critical production bottlenecks improving system stability and response times"
+        ]
+      },
+      "exp-2": {
+        "role": "Fullstack Developer",
+        "period": "Feb 2024 — Jan 2025",
+        "description": "Engineered and shipped high-impact features for a specialized web application, working closely with UI/UX teams and driving consistent product delivery in an Agile environment.",
+        "highlights": [
+          "Built SEO-optimized front-end with Next.js and robust backend services with Python",
+          "Translated Figma designs into pixel-perfect, responsive and accessible UIs",
+          "Actively contributed to Kanban workflows and sprint planning"
         ]
       },
       "exp-3": {

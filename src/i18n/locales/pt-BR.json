@@ -157,23 +157,23 @@
     },
     "experiences": {
       "exp-1": {
-        "role": "Desenvolvedor Fullstack",
-        "period": "Fev 2024 — Presente",
-        "description": "Desenvolvimento e entrega de funcionalidades de alto impacto em uma aplicação web especializada, colaborando com equipes de UI/UX e contribuindo para entregas consistentes em ambiente Ágil.",
-        "highlights": [
-          "Construí front-end otimizado para SEO com Next.js e serviços backend robustos com Python",
-          "Traduzi designs do Figma em interfaces responsivas, acessíveis e pixel-perfect",
-          "Participei ativamente de workflows Kanban e planejamento de sprints"
-        ]
-      },
-      "exp-2": {
-        "role": "Desenvolvedor Front-End Pleno",
-        "period": "Jul 2022 — Fev 2024",
+        "role": "Desenvolvedor Front-End Pleno II",
+        "period": "Jul 2022 — Presente",
         "description": "Manutenção e escalabilidade de uma plataforma de gestão de vendas, com otimizações de performance e integração de novas funcionalidades para melhorar a eficiência comercial.",
         "highlights": [
           "Reduzi o tempo de carregamento em 40% com otimizações de performance",
           "Integrei funcionalidades de IA e Geolocalização para otimizar rotas de vendas",
           "Resolvi gargalos críticos em produção melhorando estabilidade e tempo de resposta do sistema"
+        ]
+      },
+      "exp-2": {
+        "role": "Desenvolvedor Fullstack",
+        "period": "Fev 2024 — Jan 2025",
+        "description": "Desenvolvimento e entrega de funcionalidades de alto impacto em uma aplicação web especializada, colaborando com equipes de UI/UX e contribuindo para entregas consistentes em ambiente Ágil.",
+        "highlights": [
+          "Construí front-end otimizado para SEO com Next.js e serviços backend robustos com Python",
+          "Traduzi designs do Figma em interfaces responsivas, acessíveis e pixel-perfect",
+          "Participei ativamente de workflows Kanban e planejamento de sprints"
         ]
       },
       "exp-3": {

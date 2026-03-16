@@ -65,6 +65,11 @@ export function ExperienceSection() {
                         ) : (
                           <span className="text-accent text-sm font-medium">{exp.company}</span>
                         )}
+                        {exp.employmentType && (
+                          <Badge variant="outline" className="text-xs font-mono capitalize">
+                            {exp.employmentType}
+                          </Badge>
+                        )}
                       </div>
                     </div>
 
