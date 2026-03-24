@@ -69,7 +69,9 @@ export default async function handler(
   })
 
   if (!emailRes.ok) {
-    return res.status(502).json({ error: 'Failed to send email' })
+    const errBody = await emailRes.text()
+    console.error('[api/contact] EmailJS error:', emailRes.status, errBody)
+    return res.status(502).json({ error: 'Failed to send email', detail: errBody })
   }
 
   return res.status(200).json({ ok: true })
