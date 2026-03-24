@@ -25,7 +25,7 @@ import {
   type ContactFormData,
 } from "@/schemas/contact-schema";
 import { personalInfo } from "@/data/portfolio-data";
-import { sendContactEmail, type ContactPayload } from "@/services/email-service";
+import { sendContactEmail } from "@/services/email-service";
 import Turnstile from "react-turnstile";
 import { cn } from "@/utils/cn";
 
