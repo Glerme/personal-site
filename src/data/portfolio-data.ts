@@ -5,9 +5,11 @@ import type {
   Experience,
 } from "@/types/portfolio.types";
 
+export const getPersonalEmail = () => ['guiggff', 'gmail.com'].join('@')
+
 export const personalInfo: PersonalInfo = {
   name: "Guilherme Felipe",
-  email: "guiggff@gmail.com",
+  email: getPersonalEmail(),
   cvUrl:
     "https://drive.google.com/file/d/1Qc--7t2e-XkvAzQ0BUJaigyY5YW_kn4L/view?usp=sharing",
   avatarUrl: undefined,
