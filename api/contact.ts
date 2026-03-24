@@ -19,8 +19,7 @@ async function validateTurnstile(token: string): Promise<boolean> {
       response: token,
     }),
   })
-  const data = await res.json() as { success: boolean; 'error-codes'?: string[] }
-  console.error('[api/contact] Turnstile result:', JSON.stringify(data))
+  const data = await res.json() as { success: boolean }
   return data.success
 }
 
@@ -70,9 +69,7 @@ export default async function handler(
   })
 
   if (!emailRes.ok) {
-    const errBody = await emailRes.text()
-    console.error('[api/contact] EmailJS error:', emailRes.status, errBody)
-    return res.status(502).json({ error: 'Failed to send email', detail: errBody })
+    return res.status(502).json({ error: 'Failed to send email' })
   }
 
   return res.status(200).json({ ok: true })
