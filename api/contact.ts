@@ -19,7 +19,8 @@ async function validateTurnstile(token: string): Promise<boolean> {
       response: token,
     }),
   })
-  const data = await res.json() as { success: boolean }
+  const data = await res.json() as { success: boolean; 'error-codes'?: string[] }
+  console.error('[api/contact] Turnstile result:', JSON.stringify(data))
   return data.success
 }
 
