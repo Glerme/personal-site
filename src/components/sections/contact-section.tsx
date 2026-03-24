@@ -25,7 +25,8 @@ import {
   type ContactFormData,
 } from "@/schemas/contact-schema";
 import { personalInfo } from "@/data/portfolio-data";
-import { sendContactEmail } from "@/services/email-service";
+import { sendContactEmail, type ContactPayload } from "@/services/email-service";
+import Turnstile from "react-turnstile";
 import { cn } from "@/utils/cn";
 
 const SOCIAL_ICONS = {
@@ -38,6 +39,7 @@ export function ContactSection() {
   const { t } = useTranslation();
   const [submitted, setSubmitted] = useState(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
+  const [turnstileToken, setTurnstileToken] = useState<string | null>(null);
 
   const contactSchema = useMemo(() => createContactSchema(t), [t]);
 
@@ -52,10 +54,15 @@ export function ContactSection() {
 
   const onSubmit = async (formData: ContactFormData) => {
     setSubmitError(null);
+    if (!turnstileToken) {
+      setSubmitError(t("contact.form.error"));
+      return;
+    }
     try {
-      await sendContactEmail(formData);
+      await sendContactEmail({ ...formData, turnstileToken });
       setSubmitted(true);
       reset();
+      setTurnstileToken(null);
       setTimeout(() => setSubmitted(false), 5000);
     } catch {
       setSubmitError(t("contact.form.error"));
@@ -250,11 +257,19 @@ export function ContactSection() {
                 </div>
               )}
 
+              <Turnstile
+                sitekey={import.meta.env.VITE_TURNSTILE_SITE_KEY}
+                onVerify={(token) => setTurnstileToken(token)}
+                onExpire={() => setTurnstileToken(null)}
+                onError={() => setTurnstileToken(null)}
+                refreshExpired="auto"
+              />
+
               <Button
                 type="submit"
                 size="lg"
                 className={cn("w-full", isSubmitting && "opacity-80")}
-                disabled={isSubmitting}
+                disabled={isSubmitting || !turnstileToken}
               >
                 {isSubmitting ? (
                   <>
