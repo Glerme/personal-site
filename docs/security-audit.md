@@ -6,6 +6,21 @@
 
 ---
 
+## Status Update — 2026-03-24
+
+All vulnerabilities resolved. See implementation branch `feat/security-fixes`.
+
+| ID | Status |
+|----|--------|
+| VULN-01 | ✅ Resolvido — credenciais movidas para Vercel Serverless Function |
+| VULN-02 | ✅ Resolvido — Cloudflare Turnstile integrado |
+| VULN-03 | ✅ Resolvido — security headers configurados via vercel.json |
+| VULN-04 | ✅ Resolvido — stripHtml aplicado no backend |
+| VULN-05 | ✅ Resolvido — e-mail ofuscado via getPersonalEmail() |
+| VULN-06 | ✅ N/A — sem scripts de CDN externo |
+
+---
+
 ## Sumário Executivo
 
 O projeto é uma SPA estática sem backend próprio. A superfície de ataque é reduzida, porém existem vulnerabilidades relevantes — especialmente pela exposição de credenciais de serviço de terceiros e ausência de proteções básicas no formulário de contato.
