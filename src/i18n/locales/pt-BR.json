@@ -150,6 +150,14 @@
         "title": "NLW Agents",
         "description": "Aplicação de agentes de IA construída durante o NLW Rocketseat, usando Node.js e ferramentas modernas de IA."
       },
+      "letry": {
+        "title": "Letry",
+        "description": "Gerador de letreiros LED digitais animados com URL compartilhável — texto, animação, cores e velocidade configuráveis."
+      },
+      "kura": {
+        "title": "Kura",
+        "description": "Extensão de browser para salvar links, textos e notas com tags, comentários e lista de leitura — local, rápido e sem conta."
+      },
       "portfolio": {
         "title": "Este Portfolio",
         "description": "Portfolio pessoal construído com React, TypeScript e TailwindCSS com tema Dark Minimal."

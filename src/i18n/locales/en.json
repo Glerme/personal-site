@@ -150,6 +150,14 @@
         "title": "NLW Agents",
         "description": "AI agents application built during NLW Rocketseat, using Node.js and modern AI tooling."
       },
+      "letry": {
+        "title": "Letry",
+        "description": "Animated digital LED sign generator with shareable URL — customizable text, animation, colors and speed."
+      },
+      "kura": {
+        "title": "Kura",
+        "description": "Browser extension to save links, texts and notes with tags, comments and reading list — local, fast and no account needed."
+      },
       "portfolio": {
         "title": "This Portfolio",
         "description": "Personal portfolio built with React, TypeScript and TailwindCSS with a Dark Minimal theme."

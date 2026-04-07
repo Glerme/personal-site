@@ -100,6 +100,23 @@ export const projects: Project[] = [
     year: 2025,
   },
   {
+    id: "letry",
+    tags: ["Next.js", "TypeScript", "TailwindCSS", "Supabase", "TanStack Query", "Zod"],
+    category: "fullstack",
+    githubUrl: "https://github.com/Glerme/Letry",
+    liveUrl: "https://letry-iota.vercel.app",
+    featured: true,
+    year: 2025,
+  },
+  {
+    id: "kura",
+    tags: ["TypeScript", "React", "TailwindCSS", "WXT", "IndexedDB", "Vitest"],
+    category: "frontend",
+    githubUrl: "https://github.com/Glerme/kura",
+    featured: true,
+    year: 2025,
+  },
+  {
     id: "portfolio",
     tags: ["React", "TypeScript", "TailwindCSS", "Vite"],
     category: "frontend",
