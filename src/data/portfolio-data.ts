@@ -5,7 +5,7 @@ import type {
   Experience,
 } from "@/types/portfolio.types";
 
-export const getPersonalEmail = () => ['guiggff', 'gmail.com'].join('@')
+export const getPersonalEmail = () => ["guiggff", "gmail.com"].join("@");
 
 export const personalInfo: PersonalInfo = {
   name: "Guilherme Felipe",
@@ -39,6 +39,47 @@ export const projects: Project[] = [
     liveUrl: "https://www.vagaspederneiras.com.br",
     featured: true,
     year: 2025,
+  },
+  {
+    id: "letry",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "TailwindCSS",
+      "Supabase",
+      "TanStack Query",
+      "Zod",
+    ],
+    category: "fullstack",
+    githubUrl: "https://github.com/Glerme/Letry",
+    liveUrl: "https://letry-iota.vercel.app",
+    featured: true,
+    year: 2025,
+  },
+  {
+    id: "kura",
+    tags: ["TypeScript", "React", "TailwindCSS", "WXT", "IndexedDB", "Vitest"],
+    category: "frontend",
+    githubUrl: "https://github.com/Glerme/kura",
+    featured: true,
+    year: 2025,
+  },
+  {
+    id: "promo-ninja",
+    tags: [
+      "TypeScript",
+      "React",
+      "TailwindCSS",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Docker",
+      "n8n",
+    ],
+    category: "fullstack",
+    liveUrl: "https://promo-ninja.letry.app/",
+    featured: true,
+    year: 2026,
   },
   {
     id: "leaderboard-pokemon-tcg",
@@ -97,23 +138,6 @@ export const projects: Project[] = [
     category: "backend",
     githubUrl: "https://github.com/Glerme/nlw-agents",
     featured: false,
-    year: 2025,
-  },
-  {
-    id: "letry",
-    tags: ["Next.js", "TypeScript", "TailwindCSS", "Supabase", "TanStack Query", "Zod"],
-    category: "fullstack",
-    githubUrl: "https://github.com/Glerme/Letry",
-    liveUrl: "https://letry-iota.vercel.app",
-    featured: true,
-    year: 2025,
-  },
-  {
-    id: "kura",
-    tags: ["TypeScript", "React", "TailwindCSS", "WXT", "IndexedDB", "Vitest"],
-    category: "frontend",
-    githubUrl: "https://github.com/Glerme/kura",
-    featured: true,
     year: 2025,
   },
   {
@@ -178,6 +202,7 @@ export const skillCategories: SkillCategory[] = [
       { name: "Figma", icon: "SiFigma" },
       { name: "Vitest", icon: "SiVitest" },
       { name: "Zod", icon: "SiZod" },
+      { name: "n8n", icon: "SiN8n" },
     ],
   },
 ];
