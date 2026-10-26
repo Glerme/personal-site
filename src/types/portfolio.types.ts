@@ -14,6 +14,7 @@ export type ProjectCategory =
   | "frontend"
   | "backend"
   | "mobile"
+  | "desktop"
   | "devops";
 
 export interface SkillCategory {

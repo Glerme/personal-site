@@ -37,7 +37,8 @@
       "fullstack": "Fullstack",
       "frontend": "Frontend",
       "backend": "Backend",
-      "mobile": "Mobile"
+      "mobile": "Mobile",
+      "desktop": "Desktop"
     },
     "code": "Code",
     "demo": "Demo",
@@ -161,6 +162,30 @@
       "portfolio": {
         "title": "This Portfolio",
         "description": "Personal portfolio built with React, TypeScript and TailwindCSS with a Dark Minimal theme."
+      },
+      "promo-ninja": {
+        "title": "Promo Ninja",
+        "description": "Multi-tenant platform that collects deals from Amazon, Mercado Livre and Shopee and auto-posts them with affiliate links to Telegram and WhatsApp."
+      },
+      "speedia": {
+        "title": "Speedia",
+        "description": "Chrome and Firefox extension with speed control, mini player and video download for Instagram, X, TikTok, Facebook and Reddit."
+      },
+      "camviewer": {
+        "title": "CamViewer",
+        "description": "IP camera viewer for KDE Plasma 6 and Windows — camera grid, recording, ONVIF PTZ, motion alerts and a desktop widget."
+      },
+      "devroast": {
+        "title": "DevRoast",
+        "description": "Web app where developers paste code and get brutally honest feedback, a 0–10 score and a public shame leaderboard."
+      },
+      "smart-widget-kde": {
+        "title": "SmartThings for KDE",
+        "description": "KDE Plasma 6 panel widget to control Samsung SmartThings devices — air conditioners, lights, plugs and TVs."
+      },
+      "beautiful-log": {
+        "title": "Beautiful Log",
+        "description": "Desktop app and CLI wrapper that captures terminal output and shows logs in real time with filters and pretty-printed JSON."
       }
     },
     "experiences": {
